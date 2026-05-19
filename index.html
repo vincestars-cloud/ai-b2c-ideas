@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>B2C AI Offer Scorecard — Launch Rankings</title>
+<style>
+:root {
+  --bg: #f8f9fa;
+  --card: #ffffff;
+  --surface: #f1f5f9;
+  --border: #e2e8f0;
+  --text: #0f172a;
+  --muted: #64748b;
+  --accent: #2563eb;
+  --accent-light: #eff6ff;
+  --green: #16a34a;
+  --green-bg: #f0fdf4;
+  --yellow: #ca8a04;
+  --yellow-bg: #fefce8;
+  --red: #dc2626;
+  --red-bg: #fef2f2;
+  --orange: #ea580c;
+  --orange-bg: #fff7ed;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { background: var(--bg); color: var(--text); font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 13px; }
+
+/* HEADER */
+.header { background: var(--card); border-bottom: 1px solid var(--border); padding: 16px 20px; display: flex; align-items: center; gap: 16px; flex-wrap: wrap; }
+.header h1 { font-size: 18px; font-weight: 700; color: var(--text); }
+.header p { font-size: 12px; color: var(--muted); margin-top: 2px; }
+.badge { display: inline-flex; align-items: center; gap: 4px; background: var(--accent-light); color: var(--accent); font-size: 11px; font-weight: 600; padding: 3px 8px; border-radius: 999px; }
+
+/* CONTROLS */
+.controls { background: var(--card); border-bottom: 1px solid var(--border); padding: 10px 20px; display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
+.controls input[type=text] { padding: 6px 10px; border: 1px solid var(--border); border-radius: 6px; font-size: 12px; width: 200px; outline: none; }
+.controls input[type=text]:focus { border-color: var(--accent); }
+.controls select { padding: 6px 8px; border: 1px solid var(--border); border-radius: 6px; font-size: 12px; outline: none; cursor: pointer; }
+.controls button { padding: 6px 12px; border: 1px solid var(--border); border-radius: 6px; font-size: 12px; background: var(--card); cursor: pointer; color: var(--text); }
+.controls button.active { background: var(--accent); color: #fff; border-color: var(--accent); }
+.count-badge { margin-left: auto; font-size: 12px; color: var(--muted); }
+
+/* TABLE */
+.table-wrap { overflow-x: auto; padding: 0 20px 40px; }
+table { width: 100%; border-collapse: collapse; margin-top: 12px; }
+thead tr { background: var(--surface); }
+th { padding: 8px 10px; text-align: left; font-size: 11px; font-weight: 600; color: var(--muted); text-transform: uppercase; letter-spacing: 0.04em; border-bottom: 2px solid var(--border); white-space: nowrap; cursor: pointer; user-select: none; }
+th:hover { color: var(--accent); }
+th.sorted { color: var(--accent); }
+th .sort-arrow { font-size: 9px; margin-left: 3px; }
+
+/* DATA ROWS */
+tr.drow { cursor: pointer; border-bottom: 1px solid var(--border); transition: background 0.1s; }
+tr.drow:hover { background: var(--accent-light); }
+tr.drow.active { background: var(--accent-light); }
+td { padding: 8px 10px; vertical-align: middle; }
+td.rank-cell { font-weight: 700; color: var(--muted); font-size: 12px; width: 32px; }
+td.name-cell { font-weight: 600; color: var(--text); max-width: 220px; }
+td.name-cell small { display: block; font-weight: 400; color: var(--muted); font-size: 11px; margin-top: 1px; }
+td.cat-cell { color: var(--muted); font-size: 11px; max-width: 130px; }
+td.price-cell { white-space: nowrap; font-weight: 600; color: var(--green); }
+td.score-cell { white-space: nowrap; }
+td.cac-cell { white-space: nowrap; color: var(--muted); font-size: 11px; }
+td.verdict-cell { font-size: 11px; color: var(--muted); max-width: 200px; line-height: 1.4; }
+
+/* SCORE BAR */
+.score-bar { display: flex; align-items: center; gap: 6px; }
+.score-num { font-weight: 700; font-size: 13px; min-width: 30px; }
+.score-bg { height: 6px; width: 60px; background: var(--border); border-radius: 3px; overflow: hidden; }
+.score-fill { height: 100%; border-radius: 3px; }
+
+/* TIER BADGE */
+.tier { display: inline-block; padding: 2px 7px; border-radius: 4px; font-size: 10px; font-weight: 700; white-space: nowrap; }
+.tier-A { background: var(--green-bg); color: var(--green); }
+.tier-B { background: var(--accent-light); color: var(--accent); }
+.tier-C { background: var(--yellow-bg); color: var(--yellow); }
+.tier-D { background: var(--red-bg); color: var(--red); }
+
+/* MINI SCORE DOTS */
+.mini-scores { display: flex; gap: 2px; flex-wrap: wrap; }
+.dot { width: 8px; height: 8px; border-radius: 2px; }
+
+/* DETAIL ROW */
+tr.detail-row { display: none; }
+tr.detail-row.open { display: table-row; }
+tr.detail-row td { padding: 0; background: var(--surface); border-bottom: 2px solid var(--accent); }
+.detail-inner { padding: 16px 20px; }
+.detail-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 14px; }
+.detail-section { background: var(--card); border: 1px solid var(--border); border-radius: 8px; padding: 12px 14px; }
+.detail-section h4 { font-size: 11px; font-weight: 700; color: var(--muted); text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 8px; }
+.detail-section p, .detail-section li { font-size: 12px; color: var(--text); line-height: 1.5; }
+.detail-section ul { padding-left: 14px; }
+.detail-section li { margin-bottom: 3px; }
+
+/* PLATFORM TAGS */
+.platform-tags { display: flex; flex-wrap: wrap; gap: 5px; margin-top: 4px; }
+.ptag { padding: 3px 8px; background: var(--surface); border: 1px solid var(--border); border-radius: 4px; font-size: 11px; font-weight: 600; color: var(--text); }
+
+/* SCORE GRID in detail */
+.score-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; }
+.score-item { display: flex; justify-content: space-between; font-size: 11px; }
+.score-item span:last-child { font-weight: 700; }
+
+/* OUTBOUND TAG */
+.outbound-yes { color: var(--green); font-weight: 600; }
+.outbound-no { color: var(--muted); }
+
+/* META ANGLE BOX */
+.angle-box { background: #f0f9ff; border-left: 3px solid var(--accent); padding: 8px 10px; border-radius: 0 6px 6px 0; font-size: 12px; font-style: italic; color: #1e40af; margin-top: 4px; }
+
+/* COLE BOX */
+.cole-box { background: #faf5ff; border-left: 3px solid #7c3aed; padding: 8px 10px; border-radius: 0 6px 6px 0; font-size: 12px; color: #5b21b6; margin-top: 4px; }
+
+/* TOGGLE ARROW */
+.toggle-arrow { color: var(--muted); font-size: 10px; margin-left: 6px; }
+tr.drow.active .toggle-arrow { transform: rotate(180deg); display: inline-block; }
+
+/* STICKY HEADER */
+thead { position: sticky; top: 0; z-index: 10; }
+
+@media (max-width: 768px) {
+  .header { flex-direction: column; align-items: flex-start; }
+  .controls { flex-direction: column; align-items: flex-start; }
+  .detail-grid { grid-template-columns: 1fr; }
+  td.verdict-cell, td.cat-cell { display: none; }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div>
+    <h1>B2C AI Offer Scorecard</h1>
+    <p>Ranked by weighted launch score — Meta ads viability, AI fulfillment fit, profit cushion, pain urgency</p>
+  </div>
+  <span class="badge" id="total-badge">73 offers</span>
+</div>
+
+<div class="controls">
+  <input type="text" id="search" placeholder="Search offers, categories..." oninput="render()">
+  <select id="tier-filter" onchange="render()">
+    <option value="">All Tiers</option>
+    <option value="A">A – Test First</option>
+    <option value="B">B – Worth Testing</option>
+    <option value="C">C – Needs Strong Angle</option>
+    <option value="D">D – Search Only</option>
+  </select>
+  <select id="cat-filter" onchange="render()">
+    <option value="">All Categories</option>
+  </select>
+  <select id="acq-filter" onchange="render()">
+    <option value="">All Acquisition Modes</option>
+    <option value="outbound">Outbound Viable</option>
+    <option value="ads">Ads to Checkout</option>
+  </select>
+  <select id="sort-by" onchange="render()">
+    <option value="score">Sort: Score</option>
+    <option value="rank">Sort: Original Rank</option>
+    <option value="price">Sort: Price</option>
+    <option value="cac">Sort: Target CAC</option>
+  </select>
+  <span class="count-badge" id="count-label"></span>
+</div>
+
+<div class="table-wrap">
+<table>
+<thead>
+<tr>
+  <th>#</th>
+  <th>Offer</th>
+  <th>Category</th>
+  <th>Price</th>
+  <th>Score</th>
+  <th>Tier</th>
+  <th>Target CAC</th>
+  <th>Launch Verdict</th>
+</tr>
+</thead>
+<tbody id="tbody"></tbody>
+</table>
+</div>
+
+<script src="data.js"></script>
+<script>
+let openRow = null;
+let sortDir = -1;
+
+function scoreColor(s) {
+  if (s >= 8.2) return '#16a34a';
+  if (s >= 7.4) return '#2563eb';
+  if (s >= 6.5) return '#ca8a04';
+  return '#dc2626';
+}
+
+function tierClass(tier) {
+  if (tier.startsWith('A')) return 'tier-A';
+  if (tier.startsWith('B')) return 'tier-B';
+  if (tier.startsWith('C')) return 'tier-C';
+  return 'tier-D';
+}
+
+function barColor(s) {
+  if (s >= 8) return '#16a34a';
+  if (s >= 7) return '#2563eb';
+  if (s >= 6) return '#ca8a04';
+  return '#dc2626';
+}
+
+function scoreBar(s) {
+  const pct = ((s - 5) / 5) * 100;
+  return `<div class="score-bar">
+    <span class="score-num" style="color:${scoreColor(s)}">${s.toFixed(1)}</span>
+    <div class="score-bg"><div class="score-fill" style="width:${pct}%;background:${barColor(s)}"></div></div>
+  </div>`;
+}
+
+function platTags(arr) {
+  return arr.map(p => `<span class="ptag">${p}</span>`).join('');
+}
+
+function row(d, i) {
+  const dc = tierClass(d.tier);
+  const outYes = d.outboundViable.startsWith('Yes');
+  return `
+<tr class="drow" id="row-${i}" onclick="tog(${i})">
+  <td class="rank-cell">${d.rank}</td>
+  <td class="name-cell">${d.name}<small>${d.frontProd}</small></td>
+  <td class="cat-cell">${d.category}</td>
+  <td class="price-cell">${d.price}</td>
+  <td class="score-cell">${scoreBar(d.score)}</td>
+  <td><span class="tier ${dc}">${d.tier}</span></td>
+  <td class="cac-cell">$${d.targetCac}</td>
+  <td class="verdict-cell">${d.verdict}</td>
+</tr>
+<tr class="detail-row" id="detail-${i}">
+  <td colspan="8">
+    <div class="detail-inner">
+      <div class="detail-grid">
+
+        <div class="detail-section">
+          <h4>Core Pain &amp; AI Fulfillment</h4>
+          <p><strong>Pain:</strong> ${d.pain}</p>
+          <p style="margin-top:6px"><strong>AI Delivers:</strong> ${d.aiDeliv}</p>
+          <p style="margin-top:6px"><strong>Upsell / LTV:</strong> ${d.upsell}</p>
+        </div>
+
+        <div class="detail-section">
+          <h4>Meta Ad Angle</h4>
+          <div class="angle-box">${d.metaAngle}</div>
+          <p style="margin-top:8px"><strong>Outbound Viable:</strong> <span class="${outYes ? 'outbound-yes' : 'outbound-no'}">${d.outboundViable}</span></p>
+          <p style="margin-top:4px"><strong>Acquisition:</strong> ${d.acquisition}</p>
+        </div>
+
+        <div class="detail-section">
+          <h4>Platform Stack</h4>
+          <div class="platform-tags">${platTags(d.platforms)}</div>
+          <p style="margin-top:8px;font-size:11px;color:var(--muted)">Typeform or Tally for intake → n8n webhook → GPT-4o fulfillment → PDF/email delivery → Stripe checkout. Deploy in 48 hours.</p>
+        </div>
+
+        <div class="detail-section">
+          <h4>Cole Gordon Framework</h4>
+          <div class="cole-box">${d.coleGordon}</div>
+        </div>
+
+        <div class="detail-section">
+          <h4>Score Breakdown</h4>
+          <div class="score-grid">
+            <div class="score-item"><span>Ease to Launch</span><span>${d.ease}/10</span></div>
+            <div class="score-item"><span>CAC Predictability</span><span>${d.cacPred}/10</span></div>
+            <div class="score-item"><span>Profit Cushion</span><span>${d.profit}/10</span></div>
+            <div class="score-item"><span>Ad Policy Safety</span><span>${d.adSafe}/10</span></div>
+            <div class="score-item"><span>Pain Urgency</span><span>${d.urgency}/10</span></div>
+            <div class="score-item"><span>No-Brand Trust</span><span>${d.noBrand}/10</span></div>
+            <div class="score-item"><span>AI Fulfillment Fit</span><span>${d.aiFit}/10</span></div>
+            <div class="score-item"><span>Competition Gap</span><span>${d.compGap}/10</span></div>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h4>Unit Economics</h4>
+          <ul>
+            <li><strong>Front-end:</strong> ${d.price}</li>
+            <li><strong>Target CAC:</strong> $${d.targetCac}</li>
+            <li><strong>Estimated margin:</strong> 70-85% (AI fulfillment)</li>
+            <li><strong>Break-even at:</strong> ${Math.ceil(d.targetCac / (parseInt(d.price) || 39))} sales/mo</li>
+            <li><strong>LTV path:</strong> ${d.upsell}</li>
+          </ul>
+          ${d.source && d.source !== 'None' ? `<p style="margin-top:8px;font-size:10px;color:var(--muted)">Source: <a href="${d.source}" target="_blank" style="color:var(--accent)">${d.source.slice(0,60)}...</a></p>` : ''}
+        </div>
+
+      </div>
+    </div>
+  </td>
+</tr>`;
+}
+
+function tog(i) {
+  const dr = document.getElementById(`detail-${i}`);
+  const drow = document.getElementById(`row-${i}`);
+  if (!dr) return;
+  const isOpen = dr.classList.contains('open');
+  // Close all
+  document.querySelectorAll('.detail-row.open').forEach(r => r.classList.remove('open'));
+  document.querySelectorAll('.drow.active').forEach(r => r.classList.remove('active'));
+  if (!isOpen) {
+    dr.classList.add('open');
+    drow.classList.add('active');
+    dr.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+  }
+}
+
+function populateCatFilter() {
+  const cats = [...new Set(B2C_DATA.map(d => d.category))].sort();
+  const sel = document.getElementById('cat-filter');
+  cats.forEach(c => {
+    const opt = document.createElement('option');
+    opt.value = c;
+    opt.textContent = c;
+    sel.appendChild(opt);
+  });
+}
+
+function render() {
+  const search = document.getElementById('search').value.toLowerCase();
+  const tierF = document.getElementById('tier-filter').value;
+  const catF = document.getElementById('cat-filter').value;
+  const acqF = document.getElementById('acq-filter').value;
+  const sortBy = document.getElementById('sort-by').value;
+
+  let data = B2C_DATA.filter(d => {
+    if (search && !d.name.toLowerCase().includes(search) && !d.category.toLowerCase().includes(search) && !d.pain.toLowerCase().includes(search)) return false;
+    if (tierF && !d.tier.startsWith(tierF)) return false;
+    if (catF && d.category !== catF) return false;
+    if (acqF === 'outbound' && !d.outboundViable.startsWith('Yes')) return false;
+    if (acqF === 'ads' && d.outboundViable.startsWith('Yes')) return false;
+    return true;
+  });
+
+  if (sortBy === 'score') data.sort((a, b) => b.score - a.score);
+  else if (sortBy === 'rank') data.sort((a, b) => a.rank - b.rank);
+  else if (sortBy === 'cac') data.sort((a, b) => a.targetCac - b.targetCac);
+  else if (sortBy === 'price') data.sort((a, b) => {
+    const pa = parseInt(a.price) || 0;
+    const pb = parseInt(b.price) || 0;
+    return pb - pa;
+  });
+
+  document.getElementById('count-label').textContent = `${data.length} of ${B2C_DATA.length} offers`;
+  document.getElementById('total-badge').textContent = `${B2C_DATA.length} offers`;
+
+  const tbody = document.getElementById('tbody');
+  tbody.innerHTML = data.map((d, i) => row(d, i)).join('');
+}
+
+populateCatFilter();
+render();
+</script>
+</body>
+</html>
