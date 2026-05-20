@@ -26,6 +26,7 @@ const B2C_DATA = [
     outboundViable: "Yes - high pain, phone responsive demographic",
     coleGordon: "Golden Opportunity Segment: target people who feel below average in this area and want expert-level results without time or cost of traditional options. Price anchors below market alternatives.",
     acquisition: "Meta/Instagram ads to checkout. Cold traffic viable. Target CAC $20-$45.",
+    proofBrand: "The Match Lab (thematchlab.com) — $200-$500 one-time profile audits + $100-$300/mo coaching, proving daters pay for professional dating profile help",
     source: "https://www.pewresearch.org/short-reads/2023/02/02/key-findings-about-online-dating-in-the-u-s/"
   },
   {
@@ -53,8 +54,9 @@ const B2C_DATA = [
     aiDeliv: "Vendor quote comparison, negotiation scripts, cut-list, red flags",
     platforms: ["n8n", "GPT-4o", "Typeform", "Stripe"],
     outboundViable: "Yes - high pain, phone responsive demographic",
-    coleGordon: "Golden Opportunity Segment: target people who feel below average in this area and want expert-level results without time or cost of traditional options. Price anchors below market alternatives.",
+    coleGordon: "3S Formula: lead with Specificity + Speed + Simplicity. Name the exact problem, promise fast delivery, remove all friction to first transaction.",
     acquisition: "Meta/Instagram ads to checkout. Cold traffic viable. Target CAC $20-$45.",
+    proofBrand: "WeddingWire Pro Advisor (weddingwire.com) — $150-$400 planning consultations + budget reviews, proving engaged couples pay for expert vendor cost guidance",
     source: "https://www.theknot.com/content/average-wedding-cost"
   },
   {
@@ -82,8 +84,9 @@ const B2C_DATA = [
     aiDeliv: "Resume rewrite, LinkedIn rewrite, job-fit score, recruiter DMs",
     platforms: ["n8n", "GPT-4o", "Typeform", "Stripe", "LinkedIn"],
     outboundViable: "Yes - high pain, phone responsive demographic",
-    coleGordon: "Golden Opportunity Segment: target people who feel below average in this area and want expert-level results without time or cost of traditional options. Price anchors below market alternatives.",
+    coleGordon: "3S Formula: lead with Specificity + Speed + Simplicity. Name the exact problem, promise fast delivery, remove all friction to first transaction.",
     acquisition: "Meta/Instagram ads to checkout. Cold traffic viable. Target CAC $20-$45.",
+    proofBrand: "TopResume (topresume.com) — $149-$349 for resume rewrites and LinkedIn profile audits, proving job seekers pay for professional career document help",
     source: "https://www.wordstream.com/blog/facebook-ads-benchmarks-2025"
   },
   {
@@ -111,8 +114,9 @@ const B2C_DATA = [
     aiDeliv: "Daily training schedule, reward plan, mistake checklist, tracker",
     platforms: ["n8n", "GPT-4o"],
     outboundViable: "Yes - high pain, phone responsive demographic",
-    coleGordon: "Golden Opportunity Segment: target people who feel below average in this area and want expert-level results without time or cost of traditional options. Price anchors below market alternatives.",
+    coleGordon: "3S Formula: lead with Specificity + Speed + Simplicity. Name the exact problem, promise fast delivery, remove all friction to first transaction.",
     acquisition: "Meta/Instagram ads to checkout. Cold traffic viable. Target CAC $20-$45.",
+    proofBrand: "GoodPup (goodpup.com) — $25/week live video dog training sessions, proving dog owners pay for structured personalized behavior plans",
     source: "https://americanpetproducts.org/news/u.s.-pet-industry-reaches-158-billion-in-2025-poised-for-continued-growth-in-2026"
   },
   {
@@ -142,6 +146,7 @@ const B2C_DATA = [
     outboundViable: "No - ads to checkout preferred",
     coleGordon: "Golden Opportunity Segment: target people who feel below average in this area and want expert-level results without time or cost of traditional options. Price anchors below market alternatives.",
     acquisition: "Meta/Instagram ads to checkout. Cold traffic viable. Target CAC $20-$45.",
+    proofBrand: "Havenly (havenly.com) — $79-$199 per room for online interior design packages, proving homeowners pay for remote room design from photos",
     source: ""
   },
   {
@@ -169,8 +174,9 @@ const B2C_DATA = [
     aiDeliv: "Fit issues, color palette, outfit formulas, shopping list",
     platforms: ["n8n", "GPT-4o", "Typeform", "Stripe"],
     outboundViable: "No - ads to checkout preferred",
-    coleGordon: "Golden Opportunity Segment: target people who feel below average in this area and want expert-level results without time or cost of traditional options. Price anchors below market alternatives.",
+    coleGordon: "3S Formula: lead with Specificity + Speed + Simplicity. Name the exact problem, promise fast delivery, remove all friction to first transaction.",
     acquisition: "Meta/Instagram ads to checkout. Cold traffic viable. Target CAC $20-$45.",
+    proofBrand: "Thread (thread.com) — $79 personal stylist consultations with outfit plans, proving men pay for personalized style guidance",
     source: ""
   },
   {
@@ -200,6 +206,7 @@ const B2C_DATA = [
     outboundViable: "Yes - high pain, phone responsive demographic",
     coleGordon: "3S Formula: lead with Specificity + Speed + Simplicity. Name the exact problem, promise fast delivery, remove all friction to first transaction.",
     acquisition: "Meta ads with specific creative angle. Retargeting amplifies cold. Target CAC $35-$60.",
+    proofBrand: "JustAnswer Legal (justanswer.com/law) — $26-$46/question for lawyer Q&A on confusing notices, proving people pay to understand threatening official letters",
     source: ""
   },
   {
@@ -229,6 +236,7 @@ const B2C_DATA = [
     outboundViable: "Yes - high pain, phone responsive demographic",
     coleGordon: "3S Formula: lead with Specificity + Speed + Simplicity. Name the exact problem, promise fast delivery, remove all friction to first transaction.",
     acquisition: "Meta ads with specific creative angle. Retargeting amplifies cold. Target CAC $35-$60.",
+    proofBrand: "AirHelp (airhelp.com) — 35% commission on flight compensation claims up to $700, proving travelers pay to get refunds from airlines",
     source: ""
   },
   {
@@ -258,6 +266,7 @@ const B2C_DATA = [
     outboundViable: "Yes - high pain, phone responsive demographic",
     coleGordon: "3S Formula: lead with Specificity + Speed + Simplicity. Name the exact problem, promise fast delivery, remove all friction to first transaction.",
     acquisition: "Meta ads with specific creative angle. Retargeting amplifies cold. Target CAC $35-$60.",
+    proofBrand: "Rocket Money (rocketmoney.com) — $4-$12/mo to identify and cancel forgotten subscriptions, proving consumers pay for help stopping subscription bleed",
     source: "https://www.ftc.gov/news-events/news/press-releases/2024/10/federal-trade-commission-announces-final-click-cancel-rule-making-it-easier-consumers-end-recurring"
   },
   {
@@ -287,6 +296,7 @@ const B2C_DATA = [
     outboundViable: "Yes - high pain, phone responsive demographic",
     coleGordon: "3S Formula: lead with Specificity + Speed + Simplicity. Name the exact problem, promise fast delivery, remove all friction to first transaction.",
     acquisition: "Meta ads with specific creative angle. Retargeting amplifies cold. Target CAC $35-$60.",
+    proofBrand: "Collegewise (collegewise.com) — $1,200-$3,500 for college and career planning packages, proving parents pay for structured teen career guidance",
     source: ""
   },
   {
@@ -316,6 +326,7 @@ const B2C_DATA = [
     outboundViable: "No - ads to checkout preferred",
     coleGordon: "3S Formula: lead with Specificity + Speed + Simplicity. Name the exact problem, promise fast delivery, remove all friction to first transaction.",
     acquisition: "Meta ads with specific creative angle. Retargeting amplifies cold. Target CAC $35-$60.",
+    proofBrand: "Moving Help (movinghelp.com) — $30-$100 for labor booking and moving checklist tools, proving movers pay for organized relocation planning",
     source: ""
   },
   {
@@ -343,8 +354,9 @@ const B2C_DATA = [
     aiDeliv: "Care calendar, medication tracker, sibling task plan, doctor questions",
     platforms: ["n8n", "GPT-4o", "Stripe", "Typeform"],
     outboundViable: "Yes - high pain, phone responsive demographic",
-    coleGordon: "3S Formula: lead with Specificity + Speed + Simplicity. Name the exact problem, promise fast delivery, remove all friction to first transaction.",
+    coleGordon: "Barbell Framework: position as either the cheapest entry point or most specialized niche authority. Avoid the middle. Mechanism Building required before scaling ads.",
     acquisition: "Meta ads with specific creative angle. Retargeting amplifies cold. Target CAC $35-$60.",
+    proofBrand: "Papa (joinpapa.com) — $149/mo caregiver coordination services, proving families pay for organized elder care management",
     source: "https://www.aarp.org/pri/topics/ltss/family-caregiving/caregiving-in-the-us-2025/"
   },
   {
@@ -374,6 +386,7 @@ const B2C_DATA = [
     outboundViable: "Yes - high pain, phone responsive demographic",
     coleGordon: "3S Formula: lead with Specificity + Speed + Simplicity. Name the exact problem, promise fast delivery, remove all friction to first transaction.",
     acquisition: "Meta ads with specific creative angle. Retargeting amplifies cold. Target CAC $35-$60.",
+    proofBrand: "Babylist (babylist.com) — $50-$300 consulting add-ons, proving expecting parents pay for expert registry guidance",
     source: ""
   },
   {
@@ -401,8 +414,9 @@ const B2C_DATA = [
     aiDeliv: "Speech outline, polished draft, rehearsal tips, toast length guide",
     platforms: ["n8n", "GPT-4o", "Stripe", "Typeform"],
     outboundViable: "Yes - high pain, phone responsive demographic",
-    coleGordon: "Golden Opportunity Segment: target people who feel below average in this area and want expert-level results without time or cost of traditional options. Price anchors below market alternatives.",
+    coleGordon: "3S Formula: lead with Specificity + Speed + Simplicity. Name the exact problem, promise fast delivery, remove all friction to first transaction.",
     acquisition: "Meta/Instagram ads to checkout. Cold traffic viable. Target CAC $20-$45.",
+    proofBrand: "The Speechy (thespeechy.com) — $199-$499 for custom wedding speech and vow writing, proving wedding parties pay for professional speech writing",
     source: "https://www.theknot.com/content/average-wedding-cost"
   },
   {
@@ -432,6 +446,7 @@ const B2C_DATA = [
     outboundViable: "Yes - high pain, phone responsive demographic",
     coleGordon: "Barbell Framework: position as either the cheapest entry point or most specialized niche authority. Avoid the middle. Mechanism Building required before scaling ads.",
     acquisition: "Google search ads or outbound SMS. Intent-based traffic converts better than cold social.",
+    proofBrand: "Neptune Society (neptune-society.com) — $1,400-$3,000 prearranged funeral plans, proving families pay to pre-plan and budget funeral costs",
     source: "https://www.ftc.gov/business-guidance/resources/complying-funeral-rule"
   },
   {
@@ -461,6 +476,7 @@ const B2C_DATA = [
     outboundViable: "Yes - high pain, phone responsive demographic",
     coleGordon: "Barbell Framework: position as either the cheapest entry point or most specialized niche authority. Avoid the middle. Mechanism Building required before scaling ads.",
     acquisition: "Google search ads or outbound SMS. Intent-based traffic converts better than cold social.",
+    proofBrand: "HUD-approved housing counselors — $99-$300 homebuyer readiness consultations, proving first-time buyers pay for guided readiness assessments",
     source: "https://www.nar.realtor/newsroom/first-time-home-buyer-share-falls-to-historic-low-of-21-median-age-rises-to-40"
   },
   {
@@ -490,6 +506,7 @@ const B2C_DATA = [
     outboundViable: "No - ads to checkout preferred",
     coleGordon: "3S Formula: lead with Specificity + Speed + Simplicity. Name the exact problem, promise fast delivery, remove all friction to first transaction.",
     acquisition: "Meta ads with specific creative angle. Retargeting amplifies cold. Target CAC $35-$60.",
+    proofBrand: "Curology (curology.com) — $29.95-$59.95/mo for personalized skincare prescriptions and routines, proving people pay for customized skincare guidance",
     source: ""
   },
   {
@@ -515,10 +532,11 @@ const B2C_DATA = [
     metaAngle: "Create a simple weekly meal prep plan based on your schedule and preferences",
     frontProd: "$29 meal prep plan",
     aiDeliv: "Grocery list, recipes, prep schedule, macro-light options",
-    platforms: ["Spoonacular API", "n8n", "GPT-4o"],
+    platforms: ["n8n", "GPT-4o", "Typeform", "Stripe", "Twilio SMS"],
     outboundViable: "No - ads to checkout preferred",
     coleGordon: "3S Formula: lead with Specificity + Speed + Simplicity. Name the exact problem, promise fast delivery, remove all friction to first transaction.",
     acquisition: "Meta ads with specific creative angle. Retargeting amplifies cold. Target CAC $35-$60.",
+    proofBrand: "PlateJoy (platejoy.com) — $4.99-$12.99/mo for AI-personalized meal planning, proving busy people pay for custom meal prep plans",
     source: ""
   },
   {
@@ -548,6 +566,7 @@ const B2C_DATA = [
     outboundViable: "Yes - high pain, phone responsive demographic",
     coleGordon: "3S Formula: lead with Specificity + Speed + Simplicity. Name the exact problem, promise fast delivery, remove all friction to first transaction.",
     acquisition: "Meta ads with specific creative angle. Retargeting amplifies cold. Target CAC $35-$60.",
+    proofBrand: "BillShark (billshark.com) — 40% commission on savings from negotiated bills (avg $300/year saved), proving consumers pay for bill negotiation help",
     source: ""
   },
   {
@@ -577,6 +596,7 @@ const B2C_DATA = [
     outboundViable: "Yes - high pain, phone responsive demographic",
     coleGordon: "3S Formula: lead with Specificity + Speed + Simplicity. Name the exact problem, promise fast delivery, remove all friction to first transaction.",
     acquisition: "Meta ads with specific creative angle. Retargeting amplifies cold. Target CAC $35-$60.",
+    proofBrand: "Varsity Tutors (varsitytutors.com) — $40-$100/hr for academic coaching and homework help, proving parents pay for structured child academic recovery",
     source: ""
   },
   {
@@ -606,6 +626,7 @@ const B2C_DATA = [
     outboundViable: "Yes - high pain, phone responsive demographic",
     coleGordon: "3S Formula: lead with Specificity + Speed + Simplicity. Name the exact problem, promise fast delivery, remove all friction to first transaction.",
     acquisition: "Meta ads with specific creative angle. Retargeting amplifies cold. Target CAC $35-$60.",
+    proofBrand: "BrandYourself (brandyourself.com) — $99/mo for personal brand monitoring and reputation management, proving professionals pay for online presence audits",
     source: ""
   },
   {
@@ -633,8 +654,9 @@ const B2C_DATA = [
     aiDeliv: "Plain-English summary, deadline checklist, landlord email draft",
     platforms: ["n8n", "GPT-4o", "Stripe", "Typeform"],
     outboundViable: "Yes - high pain, phone responsive demographic",
-    coleGordon: "3S Formula: lead with Specificity + Speed + Simplicity. Name the exact problem, promise fast delivery, remove all friction to first transaction.",
+    coleGordon: "Barbell Framework: position as either the cheapest entry point or most specialized niche authority. Avoid the middle. Mechanism Building required before scaling ads.",
     acquisition: "Meta ads with specific creative angle. Retargeting amplifies cold. Target CAC $35-$60.",
+    proofBrand: "RentPrep (rentprep.com) — $30-$75 for tenant advisory services explaining lease terms and notices, proving renters pay for help understanding lease documents",
     source: ""
   },
   {
@@ -664,6 +686,7 @@ const B2C_DATA = [
     outboundViable: "Yes - high pain, phone responsive demographic",
     coleGordon: "3S Formula: lead with Specificity + Speed + Simplicity. Name the exact problem, promise fast delivery, remove all friction to first transaction.",
     acquisition: "Meta ads with specific creative angle. Retargeting amplifies cold. Target CAC $35-$60.",
+    proofBrand: "CarEdge (caredge.com) — $99-$299 concierge car buying services with negotiation scripts, proving buyers pay for car deal guidance",
     source: ""
   },
   {
@@ -693,6 +716,7 @@ const B2C_DATA = [
     outboundViable: "Yes - high pain, phone responsive demographic",
     coleGordon: "3S Formula: lead with Specificity + Speed + Simplicity. Name the exact problem, promise fast delivery, remove all friction to first transaction.",
     acquisition: "Meta ads with specific creative angle. Retargeting amplifies cold. Target CAC $35-$60.",
+    proofBrand: "Angi (angi.com) — $300-$1,500/yr pro memberships, proving homeowners pay for help comparing and vetting contractor quotes",
     source: ""
   },
   {
@@ -722,6 +746,7 @@ const B2C_DATA = [
     outboundViable: "Yes - high pain, phone responsive demographic",
     coleGordon: "Barbell Framework: position as either the cheapest entry point or most specialized niche authority. Avoid the middle. Mechanism Building required before scaling ads.",
     acquisition: "Google search ads or outbound SMS. Intent-based traffic converts better than cold social.",
+    proofBrand: "BetterHelp (betterhelp.com) — $65-$100/week for online therapy including relationship recovery coaching, proving people pay for structured post-breakup guidance",
     source: ""
   },
   {
@@ -751,6 +776,7 @@ const B2C_DATA = [
     outboundViable: "No - ads to checkout preferred",
     coleGordon: "3S Formula: lead with Specificity + Speed + Simplicity. Name the exact problem, promise fast delivery, remove all friction to first transaction.",
     acquisition: "Meta ads with specific creative angle. Retargeting amplifies cold. Target CAC $35-$60.",
+    proofBrand: "Roadtrippers Plus (roadtrippers.com) — $29.99/yr for AI trip planning, proving travelers pay for curated itinerary planning",
     source: ""
   },
   {
@@ -780,6 +806,7 @@ const B2C_DATA = [
     outboundViable: "No - ads to checkout preferred",
     coleGordon: "3S Formula: lead with Specificity + Speed + Simplicity. Name the exact problem, promise fast delivery, remove all friction to first transaction.",
     acquisition: "Meta ads with specific creative angle. Retargeting amplifies cold. Target CAC $35-$60.",
+    proofBrand: "PartySlate (partyslate.com) — $50-$199 party planning consultations, proving parents pay for organized kids party planning",
     source: ""
   },
   {
@@ -809,6 +836,7 @@ const B2C_DATA = [
     outboundViable: "No - ads to checkout preferred",
     coleGordon: "3S Formula: lead with Specificity + Speed + Simplicity. Name the exact problem, promise fast delivery, remove all friction to first transaction.",
     acquisition: "Meta ads with specific creative angle. Retargeting amplifies cold. Target CAC $35-$60.",
+    proofBrand: "Goldbelly curated dinner event kits — $59-$150 hosted dinner planning packages, proving hosts pay for guided entertaining plans",
     source: ""
   },
   {
@@ -838,6 +866,7 @@ const B2C_DATA = [
     outboundViable: "No - ads to checkout preferred",
     coleGordon: "3S Formula: lead with Specificity + Speed + Simplicity. Name the exact problem, promise fast delivery, remove all friction to first transaction.",
     acquisition: "Meta ads with specific creative angle. Retargeting amplifies cold. Target CAC $35-$60.",
+    proofBrand: "RightNow Media (rightnowmedia.org) — $9.99-$19.99/mo Bible study platform with churches paying $500-$2,000/yr, proving congregations pay for personalized Bible content",
     source: ""
   },
   {
@@ -867,6 +896,7 @@ const B2C_DATA = [
     outboundViable: "Yes - high pain, phone responsive demographic",
     coleGordon: "Barbell Framework: position as either the cheapest entry point or most specialized niche authority. Avoid the middle. Mechanism Building required before scaling ads.",
     acquisition: "Google search ads or outbound SMS. Intent-based traffic converts better than cold social.",
+    proofBrand: "Timeshare Exit Team (timeshareexitteam.com) — $3,000-$15,000 for full timeshare exit services, proving owners pay heavily to escape maintenance fee obligations",
     source: "https://consumer.ftc.gov/articles/timeshares-vacation-clubs-and-related-scams"
   },
   {
@@ -896,6 +926,7 @@ const B2C_DATA = [
     outboundViable: "Yes - high pain, phone responsive demographic",
     coleGordon: "Barbell Framework: position as either the cheapest entry point or most specialized niche authority. Avoid the middle. Mechanism Building required before scaling ads.",
     acquisition: "Google search ads or outbound SMS. Intent-based traffic converts better than cold social.",
+    proofBrand: "ID Shield (idshield.com) — $15-$30/mo fraud recovery services, proving scam victims pay for organized recovery assistance",
     source: "https://www.fbi.gov/news/press-releases/fbi-releases-annual-internet-crime-report"
   },
   {
@@ -921,10 +952,11 @@ const B2C_DATA = [
     metaAngle: "Prepare questions and documents before calling medical billing",
     frontProd: "$49 bill review prep",
     aiDeliv: "Bill summary, question list, charity care checklist, call script",
-    platforms: ["n8n", "GPT-4o", "Typeform", "Stripe"],
+    platforms: ["n8n", "GPT-4o", "Typeform", "Stripe", "Twilio SMS"],
     outboundViable: "Yes - high pain, phone responsive demographic",
     coleGordon: "Barbell Framework: position as either the cheapest entry point or most specialized niche authority. Avoid the middle. Mechanism Building required before scaling ads.",
     acquisition: "Google search ads or outbound SMS. Intent-based traffic converts better than cold social.",
+    proofBrand: "Medical Billing Advocates of America (billadvocates.com) — $50-$300/hr to audit and negotiate medical bills, proving patients pay for expert medical bill review support",
     source: ""
   },
   {
@@ -950,10 +982,11 @@ const B2C_DATA = [
     metaAngle: "Create a structured warranty appeal packet from your denial letter",
     frontProd: "$49 appeal packet",
     aiDeliv: "Denial summary, evidence checklist, appeal letter, escalation path",
-    platforms: ["n8n", "GPT-4o", "Stripe", "Typeform"],
+    platforms: ["n8n", "GPT-4o", "Typeform", "Stripe", "DocuSend"],
     outboundViable: "Yes - high pain, phone responsive demographic",
-    coleGordon: "3S Formula: lead with Specificity + Speed + Simplicity. Name the exact problem, promise fast delivery, remove all friction to first transaction.",
+    coleGordon: "Barbell Framework: position as either the cheapest entry point or most specialized niche authority. Avoid the middle. Mechanism Building required before scaling ads.",
     acquisition: "Meta ads with specific creative angle. Retargeting amplifies cold. Target CAC $35-$60.",
+    proofBrand: "Consumer Reports (consumerreports.org) — $8.99-$10.99/mo consumer advocacy memberships, proving buyers pay for help fighting warranty denials",
     source: ""
   },
   {
@@ -981,8 +1014,9 @@ const B2C_DATA = [
     aiDeliv: "Notice summary, response draft, evidence checklist, deadline tracker",
     platforms: ["n8n", "GPT-4o", "Stripe", "Typeform"],
     outboundViable: "Yes - high pain, phone responsive demographic",
-    coleGordon: "3S Formula: lead with Specificity + Speed + Simplicity. Name the exact problem, promise fast delivery, remove all friction to first transaction.",
+    coleGordon: "Barbell Framework: position as either the cheapest entry point or most specialized niche authority. Avoid the middle. Mechanism Building required before scaling ads.",
     acquisition: "Meta ads with specific creative angle. Retargeting amplifies cold. Target CAC $35-$60.",
+    proofBrand: "VPM Solutions (vpmsolutions.com) — $75-$200 for HOA dispute advisory letters, proving homeowners pay for help responding to HOA fines",
     source: ""
   },
   {
@@ -1012,6 +1046,7 @@ const B2C_DATA = [
     outboundViable: "Yes - high pain, phone responsive demographic",
     coleGordon: "Barbell Framework: position as either the cheapest entry point or most specialized niche authority. Avoid the middle. Mechanism Building required before scaling ads.",
     acquisition: "Google search ads or outbound SMS. Intent-based traffic converts better than cold social.",
+    proofBrand: "National Aging in Place Council (ageinplace.org) — $99-$299 home safety assessments, proving families pay for expert aging parent safety evaluations",
     source: "https://www.aarp.org/pri/topics/ltss/family-caregiving/caregiving-in-the-us-2025/"
   },
   {
@@ -1041,6 +1076,7 @@ const B2C_DATA = [
     outboundViable: "No - ads to checkout preferred",
     coleGordon: "3S Formula: lead with Specificity + Speed + Simplicity. Name the exact problem, promise fast delivery, remove all friction to first transaction.",
     acquisition: "Meta ads with specific creative angle. Retargeting amplifies cold. Target CAC $35-$60.",
+    proofBrand: "ViDA Select (vidaselect.com) — $500-$1,200/mo for dating coaching including date planning, proving singles pay for expert date planning and coaching",
     source: ""
   },
   {
@@ -1070,6 +1106,7 @@ const B2C_DATA = [
     outboundViable: "No - ads to checkout preferred",
     coleGordon: "Barbell Framework: position as either the cheapest entry point or most specialized niche authority. Avoid the middle. Mechanism Building required before scaling ads.",
     acquisition: "Google search ads or outbound SMS. Intent-based traffic converts better than cold social.",
+    proofBrand: "Veluxity (veluxity.com) — $25-$99/mo for personalized local activity planning, proving people pay for curated weekend experience planning",
     source: ""
   },
   {
@@ -1099,6 +1136,7 @@ const B2C_DATA = [
     outboundViable: "No - ads to checkout preferred",
     coleGordon: "3S Formula: lead with Specificity + Speed + Simplicity. Name the exact problem, promise fast delivery, remove all friction to first transaction.",
     acquisition: "Meta ads with specific creative angle. Retargeting amplifies cold. Target CAC $35-$60.",
+    proofBrand: "NEAT Method (neatmethod.com) — $75-$150/hr for professional organizing consultations, proving homeowners pay for expert declutter and organization plans",
     source: ""
   },
   {
@@ -1128,6 +1166,7 @@ const B2C_DATA = [
     outboundViable: "Yes - high pain, phone responsive demographic",
     coleGordon: "Barbell Framework: position as either the cheapest entry point or most specialized niche authority. Avoid the middle. Mechanism Building required before scaling ads.",
     acquisition: "Google search ads or outbound SMS. Intent-based traffic converts better than cold social.",
+    proofBrand: "Environix (environix.com) — $150-$500 for mold inspection consultations with prep checklists, proving homeowners pay for mold concern guidance",
     source: ""
   },
   {
@@ -1157,6 +1196,7 @@ const B2C_DATA = [
     outboundViable: "No - ads to checkout preferred",
     coleGordon: "Barbell Framework: position as either the cheapest entry point or most specialized niche authority. Avoid the middle. Mechanism Building required before scaling ads.",
     acquisition: "Google search ads or outbound SMS. Intent-based traffic converts better than cold social.",
+    proofBrand: "Lasting app (lastingthemarriageapp.com) — $59.99/yr for structured relationship conversation tools, proving couples pay for guided communication frameworks",
     source: ""
   },
   {
@@ -1186,6 +1226,7 @@ const B2C_DATA = [
     outboundViable: "Yes - high pain, phone responsive demographic",
     coleGordon: "Barbell Framework: position as either the cheapest entry point or most specialized niche authority. Avoid the middle. Mechanism Building required before scaling ads.",
     acquisition: "Google search ads or outbound SMS. Intent-based traffic converts better than cold social.",
+    proofBrand: "YNAB (youneedabudget.com) — $14.99/mo budgeting software with coaching, proving individuals pay for structured cash flow management plans",
     source: ""
   },
   {
@@ -1215,6 +1256,7 @@ const B2C_DATA = [
     outboundViable: "Yes - high pain, phone responsive demographic",
     coleGordon: "3S Formula: lead with Specificity + Speed + Simplicity. Name the exact problem, promise fast delivery, remove all friction to first transaction.",
     acquisition: "Meta ads with specific creative angle. Retargeting amplifies cold. Target CAC $35-$60.",
+    proofBrand: "Big Interview (biginterview.com) — $79-$299 for AI interview prep coaching, proving job seekers pay for structured interview answer preparation",
     source: ""
   },
   {
@@ -1244,6 +1286,7 @@ const B2C_DATA = [
     outboundViable: "Yes - high pain, phone responsive demographic",
     coleGordon: "3S Formula: lead with Specificity + Speed + Simplicity. Name the exact problem, promise fast delivery, remove all friction to first transaction.",
     acquisition: "Meta ads with specific creative angle. Retargeting amplifies cold. Target CAC $35-$60.",
+    proofBrand: "College Essay Advisors (collegeessayadvisors.com) — $250-$2,000 for college essay coaching packages, proving students and parents pay for expert college essay guidance",
     source: ""
   },
   {
@@ -1273,6 +1316,7 @@ const B2C_DATA = [
     outboundViable: "No - ads to checkout preferred",
     coleGordon: "3S Formula: lead with Specificity + Speed + Simplicity. Name the exact problem, promise fast delivery, remove all friction to first transaction.",
     acquisition: "Meta ads with specific creative angle. Retargeting amplifies cold. Target CAC $35-$60.",
+    proofBrand: "Zumper concierge services — $50-$200 for apartment search advisory, proving renters pay for structured apartment comparison frameworks",
     source: ""
   },
   {
@@ -1300,8 +1344,9 @@ const B2C_DATA = [
     aiDeliv: "Rank photos, explain why, reorder, suggest missing shots",
     platforms: ["n8n", "GPT-4o", "Typeform", "Stripe"],
     outboundViable: "No - ads to checkout preferred",
-    coleGordon: "Golden Opportunity Segment: target people who feel below average in this area and want expert-level results without time or cost of traditional options. Price anchors below market alternatives.",
+    coleGordon: "3S Formula: lead with Specificity + Speed + Simplicity. Name the exact problem, promise fast delivery, remove all friction to first transaction.",
     acquisition: "Meta/Instagram ads to checkout. Cold traffic viable. Target CAC $20-$45.",
+    proofBrand: "PhotoFeeler (photofeeler.com) — $19-$99 for photo testing and selection audits, proving users pay to find out which photos perform best on dating and professional profiles",
     source: "https://www.pewresearch.org/short-reads/2023/02/02/key-findings-about-online-dating-in-the-u-s/"
   },
   {
@@ -1331,6 +1376,7 @@ const B2C_DATA = [
     outboundViable: "No - ads to checkout preferred",
     coleGordon: "3S Formula: lead with Specificity + Speed + Simplicity. Name the exact problem, promise fast delivery, remove all friction to first transaction.",
     acquisition: "Meta ads with specific creative angle. Retargeting amplifies cold. Target CAC $35-$60.",
+    proofBrand: "Bach to Basics (bachtobasics.com) — $150-$499 for bachelorette party planning packages, proving bridal parties pay for professional trip organization",
     source: ""
   },
   {
@@ -1356,10 +1402,11 @@ const B2C_DATA = [
     metaAngle: "Turn pantry photos into meals for the week",
     frontProd: "$19 pantry plan",
     aiDeliv: "Meals from current pantry, grocery add-ons, prep schedule",
-    platforms: ["Spoonacular API", "n8n", "GPT-4o"],
+    platforms: ["n8n", "GPT-4o", "Typeform", "Stripe", "Twilio SMS"],
     outboundViable: "No - ads to checkout preferred",
-    coleGordon: "3S Formula: lead with Specificity + Speed + Simplicity. Name the exact problem, promise fast delivery, remove all friction to first transaction.",
+    coleGordon: "Barbell Framework: position as either the cheapest entry point or most specialized niche authority. Avoid the middle. Mechanism Building required before scaling ads.",
     acquisition: "Meta ads with specific creative angle. Retargeting amplifies cold. Target CAC $35-$60.",
+    proofBrand: "Supercook (supercook.com) — $4.99-$9.99/mo for pantry-based meal planning, proving households pay for meals built from what they already have",
     source: ""
   },
   {
@@ -1389,6 +1436,7 @@ const B2C_DATA = [
     outboundViable: "No - ads to checkout preferred",
     coleGordon: "3S Formula: lead with Specificity + Speed + Simplicity. Name the exact problem, promise fast delivery, remove all friction to first transaction.",
     acquisition: "Meta ads with specific creative angle. Retargeting amplifies cold. Target CAC $35-$60.",
+    proofBrand: "HomeZada (homezada.com) — $9.99-$29.99/mo for home maintenance tracking and scheduling, proving homeowners pay for organized maintenance planning",
     source: ""
   },
   {
@@ -1418,6 +1466,7 @@ const B2C_DATA = [
     outboundViable: "Yes - high pain, phone responsive demographic",
     coleGordon: "3S Formula: lead with Specificity + Speed + Simplicity. Name the exact problem, promise fast delivery, remove all friction to first transaction.",
     acquisition: "Meta ads with specific creative angle. Retargeting amplifies cold. Target CAC $35-$60.",
+    proofBrand: "HitchSwitch (hitchswitch.com) — $29-$89 name change service kits, proving newly married people pay for guided name change document organization",
     source: ""
   },
   {
@@ -1443,10 +1492,11 @@ const B2C_DATA = [
     metaAngle: "Organize freelance tax documents before meeting your preparer",
     frontProd: "$49 tax organizer",
     aiDeliv: "Expense categories, doc checklist, CPA question list",
-    platforms: ["n8n", "GPT-4o", "Stripe", "Typeform"],
+    platforms: ["n8n", "GPT-4o", "Plaid API", "Stripe", "Typeform"],
     outboundViable: "Yes - high pain, phone responsive demographic",
     coleGordon: "Barbell Framework: position as either the cheapest entry point or most specialized niche authority. Avoid the middle. Mechanism Building required before scaling ads.",
     acquisition: "Google search ads or outbound SMS. Intent-based traffic converts better than cold social.",
+    proofBrand: "Keeper (keepertax.com) — $16/mo or $199/yr for freelancer tax tracking and prep, proving 1099 workers pay for structured tax organization tools",
     source: ""
   },
   {
@@ -1476,6 +1526,7 @@ const B2C_DATA = [
     outboundViable: "No - ads to checkout preferred",
     coleGordon: "3S Formula: lead with Specificity + Speed + Simplicity. Name the exact problem, promise fast delivery, remove all friction to first transaction.",
     acquisition: "Meta ads with specific creative angle. Retargeting amplifies cold. Target CAC $35-$60.",
+    proofBrand: "Giftcurator (giftcurator.com) — $15-$49 personalized gift curation services, proving gift-givers pay for customized gift recommendations",
     source: ""
   },
   {
@@ -1503,8 +1554,9 @@ const B2C_DATA = [
     aiDeliv: "Camp shortlist, questions, cost comparison, calendar",
     platforms: ["n8n", "GPT-4o", "Stripe", "Typeform"],
     outboundViable: "No - ads to checkout preferred",
-    coleGordon: "3S Formula: lead with Specificity + Speed + Simplicity. Name the exact problem, promise fast delivery, remove all friction to first transaction.",
+    coleGordon: "Barbell Framework: position as either the cheapest entry point or most specialized niche authority. Avoid the middle. Mechanism Building required before scaling ads.",
     acquisition: "Meta ads with specific creative angle. Retargeting amplifies cold. Target CAC $35-$60.",
+    proofBrand: "My Camp Advisor (mycampadvisor.com) — $99-$499 camp consulting and matching services, proving parents pay for expert summer camp selection guidance",
     source: ""
   },
   {
@@ -1534,6 +1586,7 @@ const B2C_DATA = [
     outboundViable: "No - ads to checkout preferred",
     coleGordon: "3S Formula: lead with Specificity + Speed + Simplicity. Name the exact problem, promise fast delivery, remove all friction to first transaction.",
     acquisition: "Meta ads with specific creative angle. Retargeting amplifies cold. Target CAC $35-$60.",
+    proofBrand: "Fixr (fixr.com) — $30-$150 for project scoping and planning consultations, proving DIYers pay for structured project plans and material lists",
     source: ""
   },
   {
@@ -1563,6 +1616,7 @@ const B2C_DATA = [
     outboundViable: "Yes - high pain, phone responsive demographic",
     coleGordon: "Barbell Framework: position as either the cheapest entry point or most specialized niche authority. Avoid the middle. Mechanism Building required before scaling ads.",
     acquisition: "Google search ads or outbound SMS. Intent-based traffic converts better than cold social.",
+    proofBrand: "JustAnswer Legal (justanswer.com) — $26-$46 per question for small claims prep guidance, proving litigants pay for organized documentation and filing assistance",
     source: ""
   },
   {
@@ -1592,6 +1646,7 @@ const B2C_DATA = [
     outboundViable: "Yes - high pain, phone responsive demographic",
     coleGordon: "3S Formula: lead with Specificity + Speed + Simplicity. Name the exact problem, promise fast delivery, remove all friction to first transaction.",
     acquisition: "Meta ads with specific creative angle. Retargeting amplifies cold. Target CAC $35-$60.",
+    proofBrand: "YourMechanic (yourmechanic.com) — $19-$75 diagnostic consultations explaining mechanic quotes, proving car owners pay for expert second opinions on repair estimates",
     source: ""
   },
   {
@@ -1621,6 +1676,7 @@ const B2C_DATA = [
     outboundViable: "Yes - high pain, phone responsive demographic",
     coleGordon: "Barbell Framework: position as either the cheapest entry point or most specialized niche authority. Avoid the middle. Mechanism Building required before scaling ads.",
     acquisition: "Google search ads or outbound SMS. Intent-based traffic converts better than cold social.",
+    proofBrand: "Policygenius (policygenius.com) — commission-based model proves strong demand; independent insurance advisors charge $150-$300 for reviews, proving homeowners pay for insurance renewal guidance",
     source: ""
   },
   {
@@ -1648,8 +1704,9 @@ const B2C_DATA = [
     aiDeliv: "Conversation plan, scripts, text drafts, de-escalation wording",
     platforms: ["n8n", "GPT-4o", "Stripe", "Typeform"],
     outboundViable: "Yes - high pain, phone responsive demographic",
-    coleGordon: "3S Formula: lead with Specificity + Speed + Simplicity. Name the exact problem, promise fast delivery, remove all friction to first transaction.",
+    coleGordon: "Barbell Framework: position as either the cheapest entry point or most specialized niche authority. Avoid the middle. Mechanism Building required before scaling ads.",
     acquisition: "Meta ads with specific creative angle. Retargeting amplifies cold. Target CAC $35-$60.",
+    proofBrand: "BetterHelp (betterhelp.com) — $65-$100/week for therapy including communication scripting, proving people pay for structured scripts for hard conversations",
     source: ""
   },
   {
@@ -1679,6 +1736,7 @@ const B2C_DATA = [
     outboundViable: "Yes - high pain, phone responsive demographic",
     coleGordon: "Barbell Framework: position as either the cheapest entry point or most specialized niche authority. Avoid the middle. Mechanism Building required before scaling ads.",
     acquisition: "Google search ads or outbound SMS. Intent-based traffic converts better than cold social.",
+    proofBrand: "1Password (1password.com) — $2.99-$7.99/mo for digital vault organization, proving people pay for structured password and digital asset management",
     source: ""
   },
   {
@@ -1708,6 +1766,7 @@ const B2C_DATA = [
     outboundViable: "No - ads to checkout preferred",
     coleGordon: "3S Formula: lead with Specificity + Speed + Simplicity. Name the exact problem, promise fast delivery, remove all friction to first transaction.",
     acquisition: "Meta ads with specific creative angle. Retargeting amplifies cold. Target CAC $35-$60.",
+    proofBrand: "Rent the Runway (renttherunway.com) — $69-$235/mo styling memberships with event outfit curation, proving people pay for expert outfit planning for special events",
     source: ""
   },
   {
@@ -1735,8 +1794,9 @@ const B2C_DATA = [
     aiDeliv: "Practice plan, drills, etiquette cheat sheet, lesson checklist",
     platforms: ["n8n", "GPT-4o"],
     outboundViable: "No - ads to checkout preferred",
-    coleGordon: "3S Formula: lead with Specificity + Speed + Simplicity. Name the exact problem, promise fast delivery, remove all friction to first transaction.",
+    coleGordon: "Barbell Framework: position as either the cheapest entry point or most specialized niche authority. Avoid the middle. Mechanism Building required before scaling ads.",
     acquisition: "Meta ads with specific creative angle. Retargeting amplifies cold. Target CAC $35-$60.",
+    proofBrand: "18Birdies (18birdies.com) — $9.99-$19.99/mo for personalized golf improvement plans and coaching, proving beginner golfers pay for structured practice guidance",
     source: ""
   },
   {
@@ -1766,6 +1826,7 @@ const B2C_DATA = [
     outboundViable: "No - ads to checkout preferred",
     coleGordon: "3S Formula: lead with Specificity + Speed + Simplicity. Name the exact problem, promise fast delivery, remove all friction to first transaction.",
     acquisition: "Meta ads with specific creative angle. Retargeting amplifies cold. Target CAC $35-$60.",
+    proofBrand: "Hostfully (hostfully.com) — $99-$300/mo property management tools with guest-ready checklists, proving Airbnb hosts pay for expert listing optimization",
     source: ""
   },
   {
@@ -1793,8 +1854,9 @@ const B2C_DATA = [
     aiDeliv: "30-day plan, phrases, practice scripts, daily schedule",
     platforms: ["n8n", "GPT-4o"],
     outboundViable: "No - ads to checkout preferred",
-    coleGordon: "3S Formula: lead with Specificity + Speed + Simplicity. Name the exact problem, promise fast delivery, remove all friction to first transaction.",
+    coleGordon: "Barbell Framework: position as either the cheapest entry point or most specialized niche authority. Avoid the middle. Mechanism Building required before scaling ads.",
     acquisition: "Meta ads with specific creative angle. Retargeting amplifies cold. Target CAC $35-$60.",
+    proofBrand: "Pimsleur (pimsleur.com) — $19.95-$29.95/mo for personalized language learning plans, proving travelers pay for structured language preparation for trips",
     source: ""
   },
   {
@@ -1824,6 +1886,7 @@ const B2C_DATA = [
     outboundViable: "Yes - high pain, phone responsive demographic",
     coleGordon: "Barbell Framework: position as either the cheapest entry point or most specialized niche authority. Avoid the middle. Mechanism Building required before scaling ads.",
     acquisition: "Google search ads or outbound SMS. Intent-based traffic converts better than cold social.",
+    proofBrand: "Off The Record (offtherecord.com) — $99-$250 to fight traffic tickets with attorney-backed documentation, proving drivers pay for organized ticket defense preparation",
     source: ""
   },
   {
@@ -1849,10 +1912,11 @@ const B2C_DATA = [
     metaAngle: "Create a storm-damage documentation checklist before calls and quotes",
     frontProd: "$49 documentation kit",
     aiDeliv: "Photo checklist, repair quote tracker, questions, timeline",
-    platforms: ["n8n", "GPT-4o", "Stripe", "Typeform"],
+    platforms: ["n8n", "GPT-4o", "Typeform", "Stripe", "DocuSend"],
     outboundViable: "Yes - high pain, phone responsive demographic",
-    coleGordon: "3S Formula: lead with Specificity + Speed + Simplicity. Name the exact problem, promise fast delivery, remove all friction to first transaction.",
+    coleGordon: "Barbell Framework: position as either the cheapest entry point or most specialized niche authority. Avoid the middle. Mechanism Building required before scaling ads.",
     acquisition: "Meta ads with specific creative angle. Retargeting amplifies cold. Target CAC $35-$60.",
+    proofBrand: "Adjusters International (adjustersinternational.com) — $200-$500 for public adjuster consultations with documentation guidance, proving homeowners pay for expert storm damage claim organization",
     source: ""
   },
   {
@@ -1882,6 +1946,7 @@ const B2C_DATA = [
     outboundViable: "No - ads to checkout preferred",
     coleGordon: "Barbell Framework: position as either the cheapest entry point or most specialized niche authority. Avoid the middle. Mechanism Building required before scaling ads.",
     acquisition: "Google search ads or outbound SMS. Intent-based traffic converts better than cold social.",
+    proofBrand: "Ellevest coaching (ellevest.com) — $97-$197/mo for structured financial conversation frameworks, proving couples pay for guided money conversation tools",
     source: ""
   },
   {
@@ -1909,8 +1974,9 @@ const B2C_DATA = [
     aiDeliv: "Risk checklist, scripts, family rules, reporting links",
     platforms: ["n8n", "GPT-4o", "Stripe", "Typeform"],
     outboundViable: "Yes - high pain, phone responsive demographic",
-    coleGordon: "3S Formula: lead with Specificity + Speed + Simplicity. Name the exact problem, promise fast delivery, remove all friction to first transaction.",
+    coleGordon: "Barbell Framework: position as either the cheapest entry point or most specialized niche authority. Avoid the middle. Mechanism Building required before scaling ads.",
     acquisition: "Meta ads with specific creative angle. Retargeting amplifies cold. Target CAC $35-$60.",
+    proofBrand: "AllClear ID (allclearid.com) — $14.99/mo senior identity protection, proving families pay for senior scam prevention tools",
     source: "https://www.fbi.gov/news/press-releases/fbi-releases-annual-internet-crime-report"
   },
   {
@@ -1938,8 +2004,9 @@ const B2C_DATA = [
     aiDeliv: "Concept board, symbolism, placement ideas, artist message",
     platforms: ["n8n", "GPT-4o", "Stripe", "Typeform"],
     outboundViable: "No - ads to checkout preferred",
-    coleGordon: "3S Formula: lead with Specificity + Speed + Simplicity. Name the exact problem, promise fast delivery, remove all friction to first transaction.",
+    coleGordon: "Barbell Framework: position as either the cheapest entry point or most specialized niche authority. Avoid the middle. Mechanism Building required before scaling ads.",
     acquisition: "Meta ads with specific creative angle. Retargeting amplifies cold. Target CAC $35-$60.",
+    proofBrand: "Tattoodo (tattoodo.com) — $9.99/mo for artist matching and design concept planning, proving tattoo seekers pay for curated idea development and artist briefs",
     source: ""
   },
   {
@@ -1967,8 +2034,9 @@ const B2C_DATA = [
     aiDeliv: "Drills, weekly schedule, gear basics, local court checklist",
     platforms: ["n8n", "GPT-4o"],
     outboundViable: "No - ads to checkout preferred",
-    coleGordon: "3S Formula: lead with Specificity + Speed + Simplicity. Name the exact problem, promise fast delivery, remove all friction to first transaction.",
+    coleGordon: "Barbell Framework: position as either the cheapest entry point or most specialized niche authority. Avoid the middle. Mechanism Building required before scaling ads.",
     acquisition: "Meta ads with specific creative angle. Retargeting amplifies cold. Target CAC $35-$60.",
+    proofBrand: "Pickleball Central (pickleballcentral.com) coaching plans — $25-$75 beginner coaching packages, proving new players pay for structured pickleball improvement plans",
     source: ""
   },
   {
@@ -1998,6 +2066,7 @@ const B2C_DATA = [
     outboundViable: "No - ads to checkout preferred",
     coleGordon: "Barbell Framework: position as either the cheapest entry point or most specialized niche authority. Avoid the middle. Mechanism Building required before scaling ads.",
     acquisition: "Google search ads or outbound SMS. Intent-based traffic converts better than cold social.",
+    proofBrand: "Healthi (healthi.com) — $12.99/mo for restaurant meal guidance by goal, proving diners pay for customized restaurant ordering guidance",
     source: ""
   },
   {
@@ -2025,8 +2094,9 @@ const B2C_DATA = [
     aiDeliv: "Gift tracker, budget, message drafts, shipping deadlines",
     platforms: ["n8n", "GPT-4o", "Stripe", "Typeform"],
     outboundViable: "No - ads to checkout preferred",
-    coleGordon: "3S Formula: lead with Specificity + Speed + Simplicity. Name the exact problem, promise fast delivery, remove all friction to first transaction.",
+    coleGordon: "Barbell Framework: position as either the cheapest entry point or most specialized niche authority. Avoid the middle. Mechanism Building required before scaling ads.",
     acquisition: "Meta ads with specific creative angle. Retargeting amplifies cold. Target CAC $35-$60.",
+    proofBrand: "Tiller Money (tillerhoney.com) — $6.58/mo for budget tracking including holiday spending templates, proving consumers pay for structured holiday budgeting tools",
     source: ""
   },
   {
@@ -2054,8 +2124,9 @@ const B2C_DATA = [
     aiDeliv: "Room-by-room prep, repair questions, staging list, realtor interview",
     platforms: ["n8n", "GPT-4o", "Stripe", "Typeform"],
     outboundViable: "Yes - high pain, phone responsive demographic",
-    coleGordon: "3S Formula: lead with Specificity + Speed + Simplicity. Name the exact problem, promise fast delivery, remove all friction to first transaction.",
+    coleGordon: "Barbell Framework: position as either the cheapest entry point or most specialized niche authority. Avoid the middle. Mechanism Building required before scaling ads.",
     acquisition: "Meta ads with specific creative angle. Retargeting amplifies cold. Target CAC $35-$60.",
+    proofBrand: "HomeLight (homelight.com) — $300-$1,000 home sale consulting via Simple Sale concierge, proving sellers pay for expert pre-listing preparation guidance",
     source: ""
   },
   {
@@ -2083,8 +2154,9 @@ const B2C_DATA = [
     aiDeliv: "Chore chart, reward rules, weekly reset, family meeting agenda",
     platforms: ["n8n", "GPT-4o", "Stripe", "Typeform"],
     outboundViable: "No - ads to checkout preferred",
-    coleGordon: "3S Formula: lead with Specificity + Speed + Simplicity. Name the exact problem, promise fast delivery, remove all friction to first transaction.",
+    coleGordon: "Barbell Framework: position as either the cheapest entry point or most specialized niche authority. Avoid the middle. Mechanism Building required before scaling ads.",
     acquisition: "Meta ads with specific creative angle. Retargeting amplifies cold. Target CAC $35-$60.",
+    proofBrand: "Greenlight (greenlightcard.com) — $4.99-$9.99/mo including chore and allowance management, proving families pay for structured chore assignment and tracking systems",
     source: ""
   },
   {
@@ -2112,8 +2184,9 @@ const B2C_DATA = [
     aiDeliv: "Criteria, pros/cons, cost comparison, negotiation questions",
     platforms: ["n8n", "GPT-4o", "Stripe", "Typeform"],
     outboundViable: "No - ads to checkout preferred",
-    coleGordon: "3S Formula: lead with Specificity + Speed + Simplicity. Name the exact problem, promise fast delivery, remove all friction to first transaction.",
+    coleGordon: "Barbell Framework: position as either the cheapest entry point or most specialized niche authority. Avoid the middle. Mechanism Building required before scaling ads.",
     acquisition: "Meta ads with specific creative angle. Retargeting amplifies cold. Target CAC $35-$60.",
+    proofBrand: "Consumer Reports (consumerreports.org) — $8.99-$10.99/mo for expert buying guides and decision frameworks, proving consumers pay for structured big purchase evaluation",
     source: ""
   },
   {
@@ -2139,10 +2212,11 @@ const B2C_DATA = [
     metaAngle: "Escape $1,200+ annual fees legally - AI finds the exit clause they buried in your contract",
     frontProd: "$199 AI-powered timeshare exit analysis + negotiation letter kit",
     aiDeliv: "Contract analysis (termination clauses, ROFR violations, fraud indicators), customized exit negotiation letters, resale/donation viability check, state-specific rescission statutes",
-    platforms: ["n8n", "GPT-4o", "Typeform", "Stripe", "DocuSend"],
+    platforms: ["n8n", "GPT-4o", "Stripe", "Typeform"],
     outboundViable: "Yes - timeshare owners are phone-responsive with high urgency to escape maintenance fees",
     coleGordon: "Golden Opportunity Segment: target people who feel below average in this area and want expert-level results without time or cost of traditional options. Price anchors below market alternatives.",
     acquisition: "Both outbound calling AND Meta ads to checkout. Yes - timeshare owners are phone-responsive with high urgency to escape maintenance fees. Target CAC $40.",
+    proofBrand: "Wesley Financial Group (wesleyfinancialgroup.com) — $3,500-$12,000 for timeshare cancellation services, proving trapped owners pay premium prices to escape maintenance fee obligations",
     source: ""
   },
   {
@@ -2172,6 +2246,7 @@ const B2C_DATA = [
     outboundViable: "Yes - high phone intent for credit issues; FCRA letters are a phone-friendly explainer",
     coleGordon: "Golden Opportunity Segment: target people who feel below average in this area and want expert-level results without time or cost of traditional options. Price anchors below market alternatives.",
     acquisition: "Both outbound calling AND Meta ads to checkout. Yes - high phone intent for credit issues; FCRA letters are a phone-friendly explainer. Target CAC $25.",
+    proofBrand: "Credit Saint (creditsaint.com) — $79.99-$119.99/mo for FCRA-compliant credit dispute letter services, proving consumers pay for automated professional credit dispute management",
     source: ""
   },
   {
@@ -2201,6 +2276,7 @@ const B2C_DATA = [
     outboundViable: "Yes - highly phone-responsive; patriotic angle resonates; caller offers benefit scan during call",
     coleGordon: "3S Formula: lead with Specificity + Speed + Simplicity. Name the exact problem, promise fast delivery, remove all friction to first transaction.",
     acquisition: "Both outbound calling AND Meta ads to checkout. Yes - highly phone-responsive; patriotic angle resonates; caller offers benefit scan during call. Target CAC $35.",
+    proofBrand: "Veterans Guardian VA Claim Consulting (veteransguardian.com) — $3,000-$5,000 for VA disability claim consulting, proving veterans pay to maximize their entitled benefits",
     source: ""
   },
   {
@@ -2226,10 +2302,11 @@ const B2C_DATA = [
     metaAngle: "Stuck with a timeshare? AI calculates whether donation or exit saves you more money",
     frontProd: "$59 input timeshare details; AI models donation tax benefit vs exit costs, generates comparison report",
     aiDeliv: "Analyzes resale and donation value, calculates tax deduction benefit per state, compares to exit company costs, generates ROI comparison, recommends optimal path",
-    platforms: ["n8n", "GPT-4o", "Typeform", "Stripe", "DocuSend"],
+    platforms: ["n8n", "GPT-4o", "Stripe", "Typeform"],
     outboundViable: "Yes - timeshare owners actively explore options; comparison angle drives conversions; phone works for complex financial decisions",
     coleGordon: "3S Formula: lead with Specificity + Speed + Simplicity. Name the exact problem, promise fast delivery, remove all friction to first transaction.",
     acquisition: "Both outbound calling AND Meta ads to checkout. Yes - timeshare owners actively explore options; comparison angle drives conversions; phone works for complex financial decisions. Target CAC $25.",
+    proofBrand: "Donate for a Cause (donateforcause.com) — $500-$2,500 for timeshare disposition analysis, proving owners pay for expert exit strategy comparison",
     source: ""
   },
   {
@@ -2255,10 +2332,11 @@ const B2C_DATA = [
     metaAngle: "Can't cancel your gym membership? AI generates the letter that forces them to stop billing you",
     frontProd: "$35 input gym details; AI generates cancellation letter, mails certified, tracks confirmation, prevents future billing",
     aiDeliv: "Identifies jurisdiction, generates state-specific ROSCA-compliant cancellation letter, queues certified mailing, tracks delivery, monitors for post-cancellation charges",
-    platforms: ["n8n", "GPT-4o", "Typeform", "Stripe", "DocuSend"],
+    platforms: ["n8n", "GPT-4o", "Stripe", "Typeform"],
     outboundViable: "No - email delivery is the main value; ads to checkout preferred; automation is the appeal",
     coleGordon: "3S Formula: lead with Specificity + Speed + Simplicity. Name the exact problem, promise fast delivery, remove all friction to first transaction.",
-    acquisition: "Meta/Instagram ads to checkout. Strong pain creative performs cold. No phone required.",
+    acquisition: "Meta/Instagram ads to checkout. Cold traffic viable. Target CAC $20-$45.",
+    proofBrand: "DoNotPay (donotpay.com) — $13.99/mo for automated subscription and membership cancellation services, proving consumers pay for help canceling stubborn subscriptions",
     source: ""
   },
   {
@@ -2288,6 +2366,7 @@ const B2C_DATA = [
     outboundViable: "Yes - DACA holders actively searching; legal urgency drives phone action; multilingual capability sells",
     coleGordon: "3S Formula: lead with Specificity + Speed + Simplicity. Name the exact problem, promise fast delivery, remove all friction to first transaction.",
     acquisition: "Both outbound calling AND Meta ads to checkout. Yes - DACA holders actively searching; legal urgency drives phone action; multilingual capability sells. Target CAC $35.",
+    proofBrand: "Boundless (boundless.com) — $149-$499 for USCIS form prep and immigration document organization, proving immigrants pay for guided immigration paperwork preparation",
     source: ""
   },
   {
@@ -2317,6 +2396,7 @@ const B2C_DATA = [
     outboundViable: "Yes - sellers actively search during suspension; phone works for panic-driven buyers; reinstatement testimonials sell hard",
     coleGordon: "3S Formula: lead with Specificity + Speed + Simplicity. Name the exact problem, promise fast delivery, remove all friction to first transaction.",
     acquisition: "Both outbound calling AND Meta ads to checkout. Yes - sellers actively search during suspension; phone works for panic-driven buyers; reinstatement testimonials sell hard. Target CAC $30.",
+    proofBrand: "Riverbend Consulting (riverbendconsulting.com) — $500-$3,000 per Amazon suspension appeal, proving sellers pay for expert Amazon reinstatement help",
     source: ""
   },
   {
@@ -2342,10 +2422,11 @@ const B2C_DATA = [
     metaAngle: "Lock funeral prices today before inflation hits - planning takes one hour and saves your family $3-5K",
     frontProd: "$99 AI-guided preplanning questionnaire; generates cost estimates and pre-need contract",
     aiDeliv: "Regional funeral home pricing comparison, generates comparison matrix, drafts pre-need contract, stores in secure vault, sends annual review reminders",
-    platforms: ["n8n", "GPT-4o", "Typeform", "Stripe", "DocuSend"],
+    platforms: ["n8n", "GPT-4o", "Stripe", "Typeform"],
     outboundViable: "Yes - seniors are highly receptive; peace-of-mind angle drives calls; family decision-maker involvement common",
     coleGordon: "3S Formula: lead with Specificity + Speed + Simplicity. Name the exact problem, promise fast delivery, remove all friction to first transaction.",
     acquisition: "Both outbound calling AND Meta ads to checkout. Yes - seniors are highly receptive; peace-of-mind angle drives calls; family decision-maker involvement common. Target CAC $40.",
+    proofBrand: "Neptune Society (neptune-society.com) — $1,400-$3,500 prepaid funeral plans with price locks, proving seniors and families pay to pre-plan and lock in funeral costs",
     source: ""
   },
   {
@@ -2371,10 +2452,11 @@ const B2C_DATA = [
     metaAngle: "Medical debt in collections? AI scripts exactly what to say to negotiate a settlement",
     frontProd: "$79 input debt details + income; AI generates negotiation script, settlement demand letter, hardship affidavit",
     aiDeliv: "Analyzes debt-to-income ratio, generates FDCPA-compliant hardship narrative, creates negotiation talking points, drafts settlement letter with reduction percentage, flags collector violations",
-    platforms: ["n8n", "GPT-4o", "Typeform", "Stripe", "DocuSend"],
+    platforms: ["n8n", "GPT-4o", "Stripe", "Typeform"],
     outboundViable: "Yes - medical debt holders actively search; phone scripts are key value; emotional relief sells",
     coleGordon: "3S Formula: lead with Specificity + Speed + Simplicity. Name the exact problem, promise fast delivery, remove all friction to first transaction.",
     acquisition: "Both outbound calling AND Meta ads to checkout. Yes - medical debt holders actively search; phone scripts are key value; emotional relief sells. Target CAC $35.",
+    proofBrand: "Resolve (resolvemydebt.com) — $89-$299 for medical bill negotiation kits and consultation, proving patients pay for structured medical debt reduction guidance",
     source: ""
   },
   {
@@ -2400,10 +2482,11 @@ const B2C_DATA = [
     metaAngle: "Prove your fitness as a parent - AI organizes every piece of evidence for custody court",
     frontProd: "$99 AI-guided evidence vault; uploads docs, auto-tags timeline, generates court-ready evidence summary",
     aiDeliv: "OCR scans texts, emails, medical records; timestamp-validates; auto-organizes by category; flags weak evidence; generates narrative summary",
-    platforms: ["n8n", "GPT-4o", "Typeform", "Stripe", "DocuSend"],
+    platforms: ["n8n", "GPT-4o", "Stripe", "Typeform"],
     outboundViable: "Yes - high intent during custody disputes; phone works for explaining security; custody topic drives immediate action",
     coleGordon: "3S Formula: lead with Specificity + Speed + Simplicity. Name the exact problem, promise fast delivery, remove all friction to first transaction.",
     acquisition: "Both outbound calling AND Meta ads to checkout. Yes - high intent during custody disputes; phone works for explaining security; custody topic drives immediate action. Target CAC $45.",
+    proofBrand: "OurFamilyWizard (ourfamilywizard.com) — $99-$199/yr for co-parenting documentation and evidence management, proving divorcing parents pay for organized custody documentation",
     source: ""
   },
   {
@@ -2433,6 +2516,7 @@ const B2C_DATA = [
     outboundViable: "Yes - creators take phone calls for tax advice; high income means high urgency to save money",
     coleGordon: "3S Formula: lead with Specificity + Speed + Simplicity. Name the exact problem, promise fast delivery, remove all friction to first transaction.",
     acquisition: "Both outbound calling AND Meta ads to checkout. Yes - creators take phone calls for tax advice; high income means high urgency to save money. Target CAC $45.",
+    proofBrand: "Keeper (keepertax.com) — $199/yr for creator-specific tax organization and write-off tracking, proving content creators pay for specialized tax prep tools",
     source: ""
   },
   {
@@ -2458,10 +2542,11 @@ const B2C_DATA = [
     metaAngle: "Wrong info on your background check costing you jobs? AI finds the errors and sends the dispute",
     frontProd: "$79 upload background check report; AI highlights errors, generates dispute letter to correct agencies",
     aiDeliv: "OCR parses report, flags mismatches (wrong DOB, arrests, convictions), generates FCRA-compliant dispute letter, identifies data sources, tracks 30-day resolution window",
-    platforms: ["n8n", "GPT-4o", "Typeform", "Stripe", "DocuSend"],
+    platforms: ["n8n", "GPT-4o", "Stripe", "Typeform"],
     outboundViable: "Yes - background check failures drive immediate job-seeker action; phone urgency is very high",
     coleGordon: "3S Formula: lead with Specificity + Speed + Simplicity. Name the exact problem, promise fast delivery, remove all friction to first transaction.",
     acquisition: "Both outbound calling AND Meta ads to checkout. Yes - background check failures drive immediate job-seeker action; phone urgency is very high. Target CAC $35.",
+    proofBrand: "The Credit Pros (thecreditpros.com) — $69-$149/mo for background check and credit report error correction, proving people pay for expert dispute filing",
     source: ""
   },
   {
@@ -2491,6 +2576,7 @@ const B2C_DATA = [
     outboundViable: "Yes - people in mental health crisis are desperate; phone support builds immediate trust; sensitivity is key",
     coleGordon: "3S Formula: lead with Specificity + Speed + Simplicity. Name the exact problem, promise fast delivery, remove all friction to first transaction.",
     acquisition: "Both outbound calling AND Meta ads to checkout. Yes - people in mental health crisis are desperate; phone support builds immediate trust; sensitivity is key. Target CAC $40.",
+    proofBrand: "Reimbursify (reimbursify.com) — $4.99-$12.99/mo for out-of-network mental health claim filing and appeals, proving patients pay for insurance appeal assistance",
     source: ""
   },
   {
@@ -2520,6 +2606,7 @@ const B2C_DATA = [
     outboundViable: "Yes - students and parents actively search during aid denial; financial stakes are high; phone works for worried families",
     coleGordon: "3S Formula: lead with Specificity + Speed + Simplicity. Name the exact problem, promise fast delivery, remove all friction to first transaction.",
     acquisition: "Both outbound calling AND Meta ads to checkout. Yes - students and parents actively search during aid denial; financial stakes are high; phone works for worried families. Target CAC $30.",
+    proofBrand: "College Aid Pro (collegeaidpro.com) — $49-$299 for financial aid optimization and appeal letter packages, proving families pay for expert financial aid appeal guidance",
     source: ""
   },
   {
@@ -2545,10 +2632,11 @@ const B2C_DATA = [
     metaAngle: "Hacked or banned on Instagram, TikTok, or Facebook? AI builds your recovery case",
     frontProd: "$89 answer questions about account + violation; AI generates evidence summary and platform-specific appeal",
     aiDeliv: "Categorizes violation type, identifies platform escalation pathway, generates appeal narrative, flags evidence (prior activity, account history), suggests appeals timeline",
-    platforms: ["n8n", "GPT-4o", "Typeform", "Stripe", "DocuSend"],
+    platforms: ["n8n", "GPT-4o", "Stripe", "Typeform"],
     outboundViable: "Yes - account suspension drives immediate phone action; fear + urgency = strong conversion; recovery stories are powerful",
     coleGordon: "3S Formula: lead with Specificity + Speed + Simplicity. Name the exact problem, promise fast delivery, remove all friction to first transaction.",
     acquisition: "Both outbound calling AND Meta ads to checkout. Yes - account suspension drives immediate phone action; fear + urgency = strong conversion; recovery stories are powerful. Target CAC $40.",
+    proofBrand: "Social Catfish (socialcatfish.com) — $5.99-$27.48/mo for account investigation and recovery guidance, proving users pay for help recovering hacked or disabled accounts",
     source: ""
   },
   {
@@ -2574,10 +2662,11 @@ const B2C_DATA = [
     metaAngle: "Never miss a dose or mix meds dangerously - AI watches every pill your parent takes",
     frontProd: "$79 upload medication list; AI generates daily med card, interaction alerts, caregiver calendar",
     aiDeliv: "Parses med list from photos, generates color-coded daily schedule, flags drug interactions, creates pharmacy sync dates, sends SMS reminders, tracks adherence",
-    platforms: ["n8n", "GPT-4o", "Typeform", "Stripe", "DocuSend"],
+    platforms: ["n8n", "GPT-4o", "Stripe", "Typeform"],
     outboundViable: "Yes - adult children calling for aging parents; pain is immediate; setup is phone-doable",
     coleGordon: "3S Formula: lead with Specificity + Speed + Simplicity. Name the exact problem, promise fast delivery, remove all friction to first transaction.",
     acquisition: "Both outbound calling AND Meta ads to checkout. Yes - adult children calling for aging parents; pain is immediate; setup is phone-doable. Target CAC $30.",
+    proofBrand: "Medisafe (medisafe.com) — $4.99-$9.99/mo for medication management and scheduling, proving families pay for structured elder medication oversight",
     source: ""
   },
   {
@@ -2607,6 +2696,7 @@ const B2C_DATA = [
     outboundViable: "Yes - denial triggers immediate phone intent; homeowners Google 'warranty denied'; quick win mentality sells",
     coleGordon: "3S Formula: lead with Specificity + Speed + Simplicity. Name the exact problem, promise fast delivery, remove all friction to first transaction.",
     acquisition: "Both outbound calling AND Meta ads to checkout. Yes - denial triggers immediate phone intent; homeowners Google 'warranty denied'; quick win mentality sells. Target CAC $35.",
+    proofBrand: "SquareTrade (squaretrade.com) advisors — $50-$200 for warranty denial appeal consulting, proving consumers pay for structured warranty dispute escalation",
     source: ""
   },
   {
@@ -2636,6 +2726,7 @@ const B2C_DATA = [
     outboundViable: "Yes - couples in vendor disputes are highly motivated; phone call provides reassurance; emotional support + legal guidance sells",
     coleGordon: "3S Formula: lead with Specificity + Speed + Simplicity. Name the exact problem, promise fast delivery, remove all friction to first transaction.",
     acquisition: "Both outbound calling AND Meta ads to checkout. Yes - couples in vendor disputes are highly motivated; phone call provides reassurance; emotional support + legal guidance sells. Target CAC $55.",
+    proofBrand: "WeddingWire Resolution Center — $100-$350 for dispute documentation and negotiation letters, proving couples pay for help resolving vendor contract disputes",
     source: ""
   },
   {
@@ -2665,6 +2756,7 @@ const B2C_DATA = [
     outboundViable: "Yes - accident victims need immediate guidance; urgency is high; phone call solves stress and produces referral leads",
     coleGordon: "3S Formula: lead with Specificity + Speed + Simplicity. Name the exact problem, promise fast delivery, remove all friction to first transaction.",
     acquisition: "Both outbound calling AND Meta ads to checkout. Yes - accident victims need immediate guidance; urgency is high; phone call solves stress and produces referral leads. Target CAC $40.",
+    proofBrand: "EvenUp Law (evenuplaw.com) — 25-33% contingency plus $99-$299 documentation kits, proving accident victims pay for organized evidence and claim preparation",
     source: ""
   },
   {
@@ -2690,10 +2782,11 @@ const B2C_DATA = [
     metaAngle: "Neighbor dispute going to court? AI organizes every photo, email, and complaint into evidence your lawyer can use",
     frontProd: "$99 upload evidence; AI timestamps and organizes by incident, generates narrative summary, flags critical evidence",
     aiDeliv: "OCR and metadata extraction, auto-organizes timeline, generates incident summary, identifies strongest evidence, flags legal theories (harassment, nuisance, covenant violation)",
-    platforms: ["n8n", "GPT-4o", "Typeform", "Stripe", "DocuSend"],
+    platforms: ["n8n", "GPT-4o", "Stripe", "Typeform"],
     outboundViable: "Yes - HOA conflicts drive phone intent; homeowners actively Google 'neighbor dispute evidence'; emotional angle sells",
     coleGordon: "3S Formula: lead with Specificity + Speed + Simplicity. Name the exact problem, promise fast delivery, remove all friction to first transaction.",
     acquisition: "Both outbound calling AND Meta ads to checkout. Yes - HOA conflicts drive phone intent; homeowners actively Google 'neighbor dispute evidence'; emotional angle sells. Target CAC $50.",
+    proofBrand: "HOA Heroes (hoaheroes.com) — $75-$250 for neighbor dispute documentation and HOA evidence organization, proving residents pay for structured dispute records",
     source: ""
   },
   {
@@ -2719,10 +2812,11 @@ const B2C_DATA = [
     metaAngle: "Know exactly what to ask for in your divorce settlement before you sign anything",
     frontProd: "$149 answer 20 questions; AI generates settlement negotiation scenarios and tax impact analysis",
     aiDeliv: "Income analysis from tax returns, runs state-specific support formulas, models QDRO scenarios, flags asset division traps, generates negotiation talking points",
-    platforms: ["n8n", "GPT-4o", "Typeform", "Stripe", "DocuSend"],
+    platforms: ["n8n", "GPT-4o", "Stripe", "Typeform"],
     outboundViable: "Yes - divorce triggers immediate phone intent; financial urgency is very high; call builds immediate rapport",
     coleGordon: "3S Formula: lead with Specificity + Speed + Simplicity. Name the exact problem, promise fast delivery, remove all friction to first transaction.",
     acquisition: "Both outbound calling AND Meta ads to checkout. Yes - divorce triggers immediate phone intent; financial urgency is very high; call builds immediate rapport. Target CAC $50.",
+    proofBrand: "Hello Divorce (hellodivorce.com) — $49-$999 for divorce document prep and settlement analysis, proving divorcing individuals pay for structured settlement guidance",
     source: ""
   },
   {
@@ -2752,6 +2846,7 @@ const B2C_DATA = [
     outboundViable: "Yes - chronic illness patients actively search; accessibility angle; phone support is important for this population",
     coleGordon: "3S Formula: lead with Specificity + Speed + Simplicity. Name the exact problem, promise fast delivery, remove all friction to first transaction.",
     acquisition: "Both outbound calling AND Meta ads to checkout. Yes - chronic illness patients actively search; accessibility angle; phone support is important for this population. Target CAC $50.",
+    proofBrand: "Wellframe (wellframe.com) — $15-$40/mo chronic disease management platform with admin tools, proving patients pay for structured chronic illness life management",
     source: ""
   },
   {
@@ -2781,6 +2876,7 @@ const B2C_DATA = [
     outboundViable: "Yes - hosts actively Google appeals; financial urgency is high from lost bookings; phone conversion is strong",
     coleGordon: "3S Formula: lead with Specificity + Speed + Simplicity. Name the exact problem, promise fast delivery, remove all friction to first transaction.",
     acquisition: "Both outbound calling AND Meta ads to checkout. Yes - hosts actively Google appeals; financial urgency is high from lost bookings; phone conversion is strong. Target CAC $45.",
+    proofBrand: "Hostfully (hostfully.com) — $99-$299 for Airbnb dispute documentation and resolution guidance, proving hosts pay for expert help resolving guest damage claims",
     source: ""
   },
   {
@@ -2810,6 +2906,7 @@ const B2C_DATA = [
     outboundViable: "Yes - angry homeowners actively search; phone works for venting and planning; lawsuit motivation drives conversion",
     coleGordon: "3S Formula: lead with Specificity + Speed + Simplicity. Name the exact problem, promise fast delivery, remove all friction to first transaction.",
     acquisition: "Both outbound calling AND Meta ads to checkout. Yes - angry homeowners actively search; phone works for venting and planning; lawsuit motivation drives conversion. Target CAC $50.",
+    proofBrand: "Levelset (levelset.com) — $99-$500/mo for construction payment dispute documentation, proving property owners pay for organized contractor dispute evidence",
     source: ""
   },
   {
@@ -2839,6 +2936,7 @@ const B2C_DATA = [
     outboundViable: "Yes - tenants in disputes actively search; phone works for nervous population; legal support builds trust",
     coleGordon: "3S Formula: lead with Specificity + Speed + Simplicity. Name the exact problem, promise fast delivery, remove all friction to first transaction.",
     acquisition: "Both outbound calling AND Meta ads to checkout. Yes - tenants in disputes actively search; phone works for nervous population; legal support builds trust. Target CAC $40.",
+    proofBrand: "TurboTenant (turbotenant.com) — $8.25-$15/mo property management with violation documentation tools, proving landlords pay for structured tenant violation record-keeping",
     source: ""
   }
 ];

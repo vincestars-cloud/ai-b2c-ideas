@@ -112,6 +112,9 @@ tr.detail-row td { padding: 0; background: var(--surface); border-bottom: 2px so
 /* COLE BOX */
 .cole-box { background: #faf5ff; border-left: 3px solid #7c3aed; padding: 8px 10px; border-radius: 0 6px 6px 0; font-size: 12px; color: #5b21b6; margin-top: 4px; }
 
+/* PROOF BRAND BOX */
+.proof-box { background: #f0fdf4; border-left: 3px solid #16a34a; padding: 8px 10px; border-radius: 0 6px 6px 0; font-size: 12px; color: #14532d; margin-top: 4px; font-weight: 500; }
+
 /* TOGGLE ARROW */
 .toggle-arrow { color: var(--muted); font-size: 10px; margin-left: 6px; }
 tr.drow.active .toggle-arrow { transform: rotate(180deg); display: inline-block; }
@@ -243,6 +246,12 @@ function row(d, i) {
           <p><strong>Pain:</strong> ${d.pain}</p>
           <p style="margin-top:6px"><strong>AI Delivers:</strong> ${d.aiDeliv}</p>
           <p style="margin-top:6px"><strong>Upsell / LTV:</strong> ${d.upsell}</p>
+        </div>
+
+        <div class="detail-section">
+          <h4>Market Proof Brand</h4>
+          <div class="proof-box">${d.proofBrand || '—'}</div>
+          <p style="margin-top:6px;font-size:11px;color:var(--muted)">This company already serves this audience — often manually or with basic tools. Our edge: AI at scale, lower price, faster delivery.</p>
         </div>
 
         <div class="detail-section">
